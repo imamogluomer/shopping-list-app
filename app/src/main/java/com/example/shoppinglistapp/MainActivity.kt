@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    ShoppingListApp()
+                    //ShoppingListApp()
 
                 }
             }
@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ShoppingListPreview(){
 
-    ShoppingListApp()
+    //ShoppingListApp()
 
 }
 
