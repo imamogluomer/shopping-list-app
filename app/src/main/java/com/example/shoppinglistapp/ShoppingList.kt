@@ -206,7 +206,9 @@ fun ShoppingListApp(
                             .fillMaxWidth()
                             .padding(8.dp)
                     )
-                    Button(onClick = {
+
+
+                    Button( onClick = {
                         if (locationUtils.hasLocationPermission(context)) {
                             locationUtils.requestLocationUpdates(viewModel)
                             navController.navigate("locationscreen") {
@@ -221,9 +223,10 @@ fun ShoppingListApp(
                             )
 
                         }
-                    }) {
 
-                        Text("address")
+                    }, modifier = Modifier, ) {
+
+                        Text("Address")
 
                     }
                 }
