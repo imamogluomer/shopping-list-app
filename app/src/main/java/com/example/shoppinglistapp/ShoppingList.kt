@@ -188,7 +188,7 @@ fun ShoppingListApp(
                 }
 
 
-            }, title = { Text("Add Shopping Item") }, text = {
+            }, title = { Text("Add ShopAping Item") }, text = {
                 Column {
                     OutlinedTextField(
                         value = itemName,
